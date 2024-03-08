@@ -1,0 +1,35 @@
+index:
+    path: /
+    controller: App\Controller\DefaultController::index
+test:
+    path: /test/{age</d+>?0}
+    controller: App/Controller/TestController::test
+    methods: [Get ,Post]
+    host: localhost
+    schemes: [htttps, http]
+somme : 
+    path: /somme/{a}/{b}
+    controller : App\Controller\SommeController::somme
+    methods: [Get ,Post]
+    host: localhost
+    schemes: [https, http]
+index2:
+    path: /index/{username}
+    controller: App\Controller\DemoController::index2
+    methods: [Get ,Post]
+    host: localhost
+    schemes: [https, http]
+home:
+    path: /premier
+    controller: App\Controller\HomeController::home
+    methods: [Get ,Post]
+    host: localhost
+    schemes: [https, http]
+second:
+    path: /second
+    controller : App\Controller\SecondController::second
+    methods: [Get ,Post]
+    host: localhost
+    schemes: [https, http]
+
+    
